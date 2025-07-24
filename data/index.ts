@@ -1,3 +1,4 @@
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -8,11 +9,11 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize transparent communication throughout every project.",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] ",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
+    titleClassName: "justify-end text-sm ",
     img: "/b1.svg",
     spareImg: "",
   },
@@ -26,16 +27,7 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
+
   {
     id: 4,
     title: "Tech enthusiast with a passion for development.",
@@ -49,7 +41,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently Learning and Building Backend Projects",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +64,57 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Refokus - A Web Designers Platform",
+    name: "Refokus",
+    des: "",
+    img: "/image.png",
+    iconLists: [
+      "/react.png",
+      "/tail.svg",
+      "/JavaScript.png",
+      "/framer.png",
+      "/c.svg",
+    ],
+    link: "https://refokus-work-tau.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Priemier Model Agency - A Model Management Platform",
+    name: "Priemier",
+    des: "",
+    img: "/Priemeir.png",
+    iconLists: ["/HTML5.png", "/CSS3.png", "/JavaScript.png", "/gsap.png"],
+    link: "https://abhimanyusaxena1.github.io/minor-project-1/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Obys Agency - A Digital Marketing Agency",
+    des: "",
+    name: "Obys Agency",
+    img: "/Obys.png",
+    iconLists: [
+      "/HTML5.png",
+      "/CSS3.png",
+      "/JavaScript.png",
+      "/gsap.png",
+      "/c.svg",
+    ],
+    link: "https://abhimanyusaxena1.github.io/obys-agency/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Project ReCircle- A Sustainable Store",
+    des: "a sustainable e-commerce platform (ReCircle) promoting eco-friendly products and responsible shopping habits, with features like carbon footprint tracking and green product tagging (Under Development)",
+    name: "ReCircle",
+    img: "/recircle.png",
+    iconLists: [
+      "/react.png",
+      "/tail.svg",
+      "/JavaScript.png",
+      "/gsap.png",
+      "/cloudinary.png",
+    ],
+    link: "https://rc-chx5.vercel.app/",
   },
 ];
 
@@ -146,9 +160,9 @@ export const companies = [
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Gsap",
+    img: "/gsap.png",
+    nameImg: "/gsapName.png",
   },
   {
     id: 3,
@@ -174,21 +188,21 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in the development of a web-based platform using Next.js and Tailwind CSS, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "GSAP Developer Intern",
+    desc: "Assisted in the development of a web-based platform using GSAP, enhancing interactivity.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Developer",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
@@ -205,13 +219,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/abhimanyusaxena1",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/lhxspark",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/abhimanyu-saxena-1aa5a827a/",
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+    link: "https://www.instagram.com/saxena_abi",
   },
 ];

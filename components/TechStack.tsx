@@ -4,7 +4,7 @@ const TechStack = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center">
       <h1 className="text-4xl font-bold mb-8 text-center">
-        Technologies I've worked with
+        Technologies I&apos;ve worked with
       </h1>
       <div className="w-full min-h-[10vh] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 items-center justify-center">
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">

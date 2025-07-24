@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const TechStack = () => {
   return (
@@ -9,122 +8,122 @@ const TechStack = () => {
       </h1>
       <div className="w-full min-h-[10vh] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 items-center justify-center">
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image       
+          <img   
             src="/react.png"
             className="w-full h-full object-contain"
             alt="React"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image  
+          <img
             src="/html5.png"
             className="w-full h-full object-contain"
             alt="HTML5"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="/css3.png"
             className="w-full h-full object-contain"
             alt="CSS3"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="/javascript.png"
             className="w-full h-full object-contain"
             alt="JavaScript"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="/tail.svg"
             className="w-full h-full object-contain"
             alt="Tailwind CSS"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="/Gsapname.png"
             className="w-full h-full object-contain"
             alt="GSAP"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="/Framer.png"
             className="w-full h-full object-contain"
             alt="Framer"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="/cloud.svg"
             className="w-full h-full object-contain"
             alt="Cloud"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="https://th.bing.com/th/id/OIP.p39AtedgD_cWI3jLaNfv_AHaEw?w=256&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
             className="w-full h-full object-contain"
             alt="Bing"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="https://ui.aceternity.com/logo.png"
             className="w-full h-full object-contain"
             alt="Aceternity"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="/vs.png"
             className="w-full h-full object-contain"
             alt="VS Code"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="https://paulstamatiou.com/gear/cursor-app-icon.png"
             className="w-full h-full object-contain"
             alt="Cursor"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
+          <img
             src="/next.svg"
             className="w-full h-full object-contain"
             alt="Next.js"
           />
         </div>
         <div className="w-full max-w-[100px] aspect-square flex items-center justify-center mx-auto p-4">
-          <Image
-            src="https://www.liblogo.com/Image-logo/wi8805we56-wix-logo-wix-free-logo-icons.png"
+          <img
+            src="https://www.liblogo.com/img-logo/wi8805we56-wix-logo-wix-free-logo-icons.png"
             className="w-full h-full object-contain"
             alt="Wix"
           />
         </div>
         <div className="w-auto col-7 items-center justify-center row-1  !p-10 ">
-          <Image
-            src="https://companieslogo.com/Image/orig/canva-a6365d5a.png?t=1720244494"
+          <img
+            src="https://companieslogo.com/img/orig/canva-a6365d5a.png?t=1720244494"
             className="w-full h-full object-cover"
             alt=""
           />
         </div>
         <div className="w-auto col-7 items-center justify-center row-1  !p-10 ">
-          <Image
+          <img
             src="https://pngimg.com/uploads/letter_c/letter_c_PNG22.png"
             className="w-full h-full object-cover"
             alt=""
           />
         </div>
         <div className="w-auto col-7 items-center justify-center row-1  !p-10 ">
-          <Image src="/c++.png" className="w-full h-full object-cover" alt="" />
+          <img src="/c++.png" className="w-full h-full object-cover" alt="" />
         </div>
         <div className="w-auto col-7 items-center justify-center row-1  !p-10 ">
-          <Image
+          <img
             src="https://icones.pro/wp-content/uploads/2021/06/icone-github-orange.png"
             className="w-full h-full object-cover"
             alt=""
